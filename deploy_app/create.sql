@@ -1,0 +1,4 @@
+DROP DATABASE IF EXISTS sisdb;
+CREATE DATABASE sisdb;
+CREATE USER 'sisuser'@'%' IDENTIFIED BY 'sispass';
+GRANT ALL PRIVILEGES ON * . * TO 'sisuser'@'%';
